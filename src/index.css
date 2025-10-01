@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6; /* Light gray-green background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  color: #1a5a5a; /* Dark teal for heading */
+  border-bottom: 2px solid #388e8e;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+/* Base styles for all buttons and inputs */
+button, input[type="text"], input[type="email"], input[type="password"], input[type="datetime-local"] {
+  padding: 10px 15px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #388e8e; /* Teal */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2c7777;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="datetime-local"] {
+  width: 90%;
+  max-width: 300px;
+}

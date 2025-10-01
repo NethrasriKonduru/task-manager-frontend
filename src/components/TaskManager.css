@@ -1,0 +1,34 @@
+.task-manager-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.task-form input[type="text"] {
+  flex-grow: 1;
+  max-width: 250px;
+}
+
+.task-form .reminder-input {
+  max-width: 180px;
+}
+
+.task-form .add-button {
+  padding: 10px 20px;
+}
+
+.no-tasks {
+  color: #777;
+  font-style: italic;
+  margin-top: 30px;
+}

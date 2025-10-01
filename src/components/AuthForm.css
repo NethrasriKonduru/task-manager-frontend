@@ -1,0 +1,29 @@
+.auth-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.auth-form input {
+  margin-bottom: 15px;
+  width: 80%; /* Adjusted width for better form presentation */
+}
+
+.auth-form button {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.auth-link {
+  cursor: pointer;
+  color: #388e8e;
+  font-weight: bold;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
